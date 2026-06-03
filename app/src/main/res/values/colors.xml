@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- BetEse brand palette (white & green, with the logo's gold accent) -->
+    <color name="brand_green">#FF149E4B</color>
+    <color name="brand_green_dark">#FF0E7C39</color>
+    <color name="brand_green_light">#FFE6F4EC</color>
+    <color name="brand_gold">#FFECC02C</color>
+    <color name="brand_black">#FF1B1B1B</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Adaptive launcher background -->
+    <color name="ic_launcher_background">#FFFFFFFF</color>
+</resources>

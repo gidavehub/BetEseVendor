@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base window theme; Compose supplies the real Material 3 colours. -->
+    <style name="Theme.BetEseVendor" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:statusBarColor">@color/brand_green</item>
+        <item name="android:navigationBarColor">@color/white</item>
+    </style>
+
+    <!-- Cold-start splash showing the BetEse logo on white (androidx core-splashscreen). -->
+    <style name="Theme.BetEseVendor.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/betese_logo</item>
+        <item name="windowSplashScreenIconBackgroundColor">@color/white</item>
+        <item name="postSplashScreenTheme">@style/Theme.BetEseVendor</item>
+    </style>
+
+</resources>

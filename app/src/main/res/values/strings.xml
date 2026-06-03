@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BetEse Vendor</string>
+    <string name="tagline">On-device thermal print broker</string>
+</resources>
